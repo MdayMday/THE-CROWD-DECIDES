@@ -1,0 +1,17 @@
+import random 
+x = 0
+while (x == 0):
+    students = ["Cole", "James", "John", "May"]
+    random.shuffle(students)
+    print("THESE ARE THE CONTESTANTS", students)
+    Winner = students.pop(0)
+    print("THIS IS THE CURRENT WINNER", Winner)
+    print("DOES THE CROWD ACCEPT THIS RESULT")
+    print("1. YEAHHHHH")
+    print("2. BOOOOOOO")
+    ANSWER = int(input())
+    if (ANSWER == 1):
+        print("THE CROWD EXCEPTS!", Winner, "REIGNS!")
+        quit()
+    if (ANSWER == 2):
+        print("TIME FOR A REDO, THE CROWD REIGNS!")
