@@ -1,7 +1,7 @@
 import random 
 x = 0
 while (x == 0):
-    students = ["Cole", "James", "John", "May"]
+    students = ["Josh", "Tommy", "Kori", "Rob", "Ariana", "Pat", "Michael"]
     random.shuffle(students)
     print("THESE ARE THE CONTESTANTS", students)
     Winner = students.pop(0)
